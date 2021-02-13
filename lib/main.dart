@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import './location_detail/location_detail.dart';
+import './screens/location/location.dart';
 
 void main() => runApp(MyApp());
 
@@ -12,8 +12,7 @@ class MyApp extends StatelessWidget {
         // Add the 3 lines from here...
         primaryColor: Colors.tealAccent,
       ), // ... to here.
-
-      home: LocationDetail(),
+      home: Locations(),
     );
   }
 }
